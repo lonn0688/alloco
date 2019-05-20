@@ -41,6 +41,7 @@ p {
 nav {
     font-family: 'Signika negative', sans-serif;
     font-size: 20px;
+
 }
 
 
@@ -50,12 +51,21 @@ nav {
     font-size: 20px;
 }
 
-.bg-light {
-    background-color: yellow !important !important;
-}
 
 
 /* NAV SLUT */
+
+
+/*Farve i nav*/
+
+a.nav-link {
+    color: #a53516;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/*Farve i nav slut*/
 
 
 /* SPLASH */
@@ -72,7 +82,7 @@ nav {
 /* FOOTER */
 footer {
     background-image: url(footer.png);
-    height: 300px;
+   height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
