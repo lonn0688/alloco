@@ -19,10 +19,19 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: #a53516;
     font-family: 'Akronim', sans-serif;
     text-align: center;
     font-size: 4em !important;
+}
+
+h3 {
+    color: black;
+    font-family: 'Akronim', sans-serif;
+}
+
+p {
+    font-family: 'Signika negative', sans-serif;
 }
 
 /* FONT SLUT */
