@@ -45,12 +45,12 @@ nav {
 }
 
 
-.navbar-light .navbar-nav .nav-link.active {
+/*.navbar-light .navbar-nav .nav-link.active {
     color: #ffff00;
     font-family: 'Signika negative', sans-serif;
     font-size: 20px;
 }
-
+*/
 
 
 /* NAV SLUT */
@@ -60,8 +60,17 @@ nav {
 
 a.nav-link {
     color: #a53516;
-    text-decoration: none;
+    text-decoration: none;                      /*ÆNDRER FARVER SÅ DET PASSER TIL STYLE*/
     background-color: transparent;
+}
+
+a.nav-link:hover{
+
+    color: chartreuse;
+}
+
+a.nav-link.active {
+  color: #32673f;
 }
 
 
