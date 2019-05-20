@@ -1,7 +1,7 @@
 /* MAIN */
 
 body {
-    background-color: #f1e4c3 !important;
+
 }
 
 img {
@@ -56,6 +56,7 @@ nav {
 /* FOOTER */
 footer {
     background-image: url(footer.png);
+    height: 500px;
 }
 
 /* FOOTER SLUT */
