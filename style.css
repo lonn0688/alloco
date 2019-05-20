@@ -60,17 +60,17 @@ nav {
 
 a.nav-link {
     color: #a53516;
-    text-decoration: none;                      /*ÆNDRER FARVER SÅ DET PASSER TIL STYLE*/
+    text-decoration: none;
     background-color: transparent;
 }
 
 a.nav-link:hover{
 
-    color: chartreuse;
+    color: orangered;
 }
 
 a.nav-link.active {
-  color: #32673f;
+  color: orange;
 }
 
 
@@ -223,11 +223,17 @@ a.nav-link.active {
 /* KONTAKT FORM */
 
 /* FOOTER */
-footer {
+#footer {
     background-image: url(footer.png);
-   height: 300px;
+height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
+
+    text-align: center;
+    color: white;
+    font-family: 'Signika negative', sans-serif;
+
+
 }
 
 /* FOOTER SLUT */
