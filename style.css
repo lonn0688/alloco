@@ -6,10 +6,53 @@ img {
     width: 100%;
 }
 
-. img splash {
+
+
+
+nav {
+
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    text-align: right;
+
+}
+
+
+a:link {
+    color: #ffff00;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link.active {
+
+
+    color: #ffff00;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    text-align: right;
 
 
 }
+
+
+.mr-auto {
+    margin-right: 0 !important;
+}
+
+
+
 
 
 footer {
