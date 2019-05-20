@@ -1,60 +1,61 @@
+/* MAIN */
+
 body {
-    margin: 0;
+    background-color: #f1e4c3 !important;
 }
 
 img {
     width: 100%;
 }
 
+/* MAIN SLUT */
 
+/* FONT */
+h1 {
+    color: white;
+    font-family: 'Akronim', sans-serif;
+    text-align: center;
+}
 
+h2 {
+    color: white;
+    font-family: 'Akronim', sans-serif;
+    text-align: center;
+}
+
+/* FONT SLUT */
+
+/* NAV */
 
 nav {
-
-
-    display: flex;
-    flex-direction: column;
-
     font-family: 'Signika', sans-serif;
     font-size: 20px;
-    text-align: right;
-
 }
-
-
-a:link {
-    color: #ffff00;
-    text-decoration: none;
-    justify-content: space-between;
-
-}
-
-
-
-
-
 
 
 .navbar-light .navbar-nav .nav-link.active {
-
-
     color: #ffff00;
     font-family: 'Signika', sans-serif;
     font-size: 20px;
-    text-align: right;
+}
 
+/* NAV SLUT */
+
+
+/* SPLASH */
+.titel {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
+/* SPLASH SLUT */
 
-.mr-auto {
-    margin-right: 0 !important;
-}
-
-
-
-
-
+/* FOOTER */
 footer {
     background-image: url(footer.png);
 }
+
+/* FOOTER SLUT */
