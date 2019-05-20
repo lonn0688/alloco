@@ -15,12 +15,14 @@ h1 {
     color: white;
     font-family: 'Akronim', sans-serif;
     text-align: center;
+    font-size: 10em !important;
 }
 
 h2 {
     color: white;
     font-family: 'Akronim', sans-serif;
     text-align: center;
+    font-size: 4em !important;
 }
 
 /* FONT SLUT */
@@ -28,14 +30,14 @@ h2 {
 /* NAV */
 
 nav {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Signika negative', sans-serif;
     font-size: 20px;
 }
 
 
 .navbar-light .navbar-nav .nav-link.active {
     color: #ffff00;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Signika negative', sans-serif;
     font-size: 20px;
 }
 
@@ -45,7 +47,7 @@ nav {
 /* SPLASH */
 .titel {
     position: absolute;
-  top: 50%;
+  top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -56,7 +58,9 @@ nav {
 /* FOOTER */
 footer {
     background-image: url(footer.png);
-    height: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* FOOTER SLUT */
