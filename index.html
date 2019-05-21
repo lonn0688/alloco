@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-     <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Signika+Negative:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -26,7 +28,7 @@
 
 
 
-  <nav id="scrollspyid" class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+    <nav id="scrollspyid" class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
         </div>
@@ -51,7 +53,7 @@
                     <a class="nav-link" href="#menu">Menu</a>
                 </li>
 
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="#catering">Catering</a>
                 </li>
 
@@ -67,14 +69,14 @@
 
 
 
-<img src="splash_mandag_2.png" alt="splash" id="forside" class="img-fluid" >
+    <img src="splash_mandag_2.png" alt="splash" id="forside" class="img-fluid">
 
 
 
-<div class="container" id="om">
+    <div class="container" id="om">
         <div class="row">
             <div class="col-12">
-            <h2>OM</h2>
+                <h2>OM</h2>
             </div>
         </div>
         <div class="row">
@@ -85,7 +87,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-            <h3>Underoverskrift</h3>
+                <h3>Underoverskrift</h3>
             </div>
         </div>
         <div class="row">
@@ -96,9 +98,9 @@
         </div>
 
 
-        <div class="row" >
+        <div class="row">
             <div class="col-12">
-            <h3>Underoverskrift</h3>
+                <h3>Underoverskrift</h3>
             </div>
         </div>
         <div class="row">
@@ -113,14 +115,14 @@
             </div>
         </div>
 
-</div>
-
-<div class="container" id="menu">
-    <div class="row">
-        <div class="col-12">
-            <h2>MENU</h2>
-        </div>
     </div>
+
+    <div class="container" id="menu">
+        <div class="row">
+            <div class="col-12">
+                <h2>MENU</h2>
+            </div>
+        </div>
         <div class="row">
             <img src="Artboard%201.png" alt="ret1">
             <h3>Ret navn</h3>
@@ -131,7 +133,7 @@
             <h3>Ret navn</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis. Erat velit scelerisque in dictum non consectetur a erat. Posuere morbi leo urna molestie. Dignissim sodales ut eu sem integer vitae justo. Sit amet mauris commodo quis. Morbi tristique senectus et netus et malesuada.</p>
         </div>
-            <div class="row">
+        <div class="row">
             <img src="Artboard%203.png" alt="ret3">
             <h3>Ret navn</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis. Erat velit scelerisque in dictum non consectetur a erat. Posuere morbi leo urna molestie. Dignissim sodales ut eu sem integer vitae justo. Sit amet mauris commodo quis. Morbi tristique senectus et netus et malesuada.</p>
@@ -166,7 +168,7 @@
             <h3>Ret navn</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis. Erat velit scelerisque in dictum non consectetur a erat. Posuere morbi leo urna molestie. Dignissim sodales ut eu sem integer vitae justo. Sit amet mauris commodo quis. Morbi tristique senectus et netus et malesuada.</p>
         </div>
-        </div>
+    </div>
 
     <div class="container" id="catering">
         <div class="row">
@@ -193,59 +195,81 @@
             </div>
         </div>
         <div class="row">
-        <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis. <br><br>Tlf: 12 34 56 78<br>E-mail: something@something.dk</p>
-        </div>
+            <div class="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis. <br><br>Tlf: 12 34 56 78<br>E-mail: something@something.dk</p>
+            </div>
         </div>
         <div class="row">
             <div class="">
-                <div class="row margin-top-bottom">
+                <p>Hej, jeg hedder <input type="text" name="fullName" id="fullName" placeholder="dit navn" value=""> og jeg har dette spørgsmål: <textarea id="subject" name="subject" placeholder="din besked" style="height:200px"></textarea>. Kontakt mig på mail <input type="text" name="email" id="email" placeholder="din e-mail" value=""> eller ring til <input type="text" name="nummer" id="nummer" placeholder="dit telefonnummer" value="">.</p>
+                <input type="submit" value="Send besked">
+            </div>
 
-             <div class="col-md-offset-3 col-sm-offset-2 col-md-6 col-sm-8">
+        </div>
+        <div class="row">
+            <div class="">
+                <p>Adresse: Islevhusvej 37, 2700 Brønshøj, Danmark.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=islevhusvej%2037&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 500px;
+                            width: 600px;
+                        }
 
-               <div class="row">
-                  <form class="contact-us pattern-bg">
-
-					  <div class="col-sm-6">
-						<div class="form-group">
-						  <input type="text" id="name" class="form-control" placeholder="Dit navn">
-						 </div>
-                        </div>
-
-                       <div class="col-sm-6">
-					    <div class="form-group">
-						 <input type="email" id="email" class="form-control" placeholder="Din email">
-						 </div>
-                        </div>
-
-
-
-                       <div class="col-sm-12">
-					    <div class="textarea-message form-group">
-					      <textarea id="message" class="textarea-message form-control" placeholder="Din besked" rows="5"></textarea>
-						  </div>
-                         </div>
-
-
-                    <div class="text-center">
-		               <button type="submit" class="button button-style button-style-dark button-style-color-2">Send besked</button>
-	                  </div>
-
-                  </form>
-
-
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 500px;
+                            width: 600px;
+                        }
+                    </style>
                 </div>
-			  </div>
-
-
-
-            </div>
-
-
-        </div>
 
             </div>
         </div>
+        <div class="row">
+            <div class="">
+                <p>Åbningstider</p>
+                <table>
+                    <tr>
+                        <th>Mandag</th>
+                        <td>Lukket</td>
+                    </tr>
+                    <tr>
+                        <th>Tirsdag</th>
+                        <td>Lukket</td>
+                    </tr>
+                    <tr>
+                        <th>Onsdag</th>
+                        <td>Lukket</td>
+                    </tr>
+                    <tr>
+                        <th>Torsdag</th>
+                        <td>15:00 - 21:00</td>
+                    </tr>
+                    <tr>
+                        <th>Fredag</th>
+                        <td>15:00 - 22:00</td>
+                    </tr>
+                    <tr>
+                        <th>Lørdag</th>
+                        <td>11:00 - 22:00</td>
+                    </tr>
+                    <tr>
+                        <th>Søndag</th>
+                        <td>11:00-21:00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -256,24 +280,73 @@
 
 
 
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="">
+                    <h3>Kontakt</h3>
+                    <p>Islevhusvej 37, <br>2700 Brønshøj, Danmark<br><br>
+
+                        Tlf: 41 24 52 47<br><br>
+
+                        E-mail: something@somthing.dk</p>
+                </div>
+                <div class="">
+                    <p>Åbningstider</p>
+                    <table>
+                        <tr>
+                            <th>Mandag</th>
+                            <td>Lukket</td>
+                        </tr>
+                        <tr>
+                            <th>Tirsdag</th>
+                            <td>Lukket</td>
+                        </tr>
+                        <tr>
+                            <th>Onsdag</th>
+                            <td>Lukket</td>
+                        </tr>
+                        <tr>
+                            <th>Torsdag</th>
+                            <td>15:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                            <th>Fredag</th>
+                            <td>15:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <th>Lørdag</th>
+                            <td>11:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <th>Søndag</th>
+                            <td>11:00-21:00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="">
+                    <h3>Nyhedsbrev</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim </p>
+                    <p>e-mail:<br></p><input type="text" name="email" id="email" placeholder="din e-mail" value=""><br><input type="submit" value="Send besked">
+                </div>
+                <div class="">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
 
 
 
-   <div class="container-fluid" id="footer"> <footer><p><br><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></footer></div>
 
 
 
 
-
-
-
-
-
-
-     <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Dennne link er vigtig for at scroll funktionen virker -->
@@ -315,8 +388,6 @@
             return false;
         });
     </script>
-
-
 
 
 

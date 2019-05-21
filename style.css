@@ -225,7 +225,6 @@ a.nav-link.active {
 /* FOOTER */
 #footer {
     background-image: url(footer.png);
-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
 
