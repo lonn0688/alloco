@@ -15,16 +15,22 @@ iframe {
     background-color: #fab712;
     color: white;
     padding: .5em;
-    margin: .5em 0;
+    margin: 0 0 2em 0;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(163,160,163,1);
 -moz-box-shadow: 0px 0px 10px 0px rgba(163,160,163,1);
 box-shadow: 0px 0px 10px 0px rgba(163,160,163,1);
 }
 
-.fa {
-  font-size: 30px !important;
-    padding: 20px;
+#kontakt .fa {
+  font-size: 20px !important;
+    padding: 0 10px 10px 0;
+    color: #fab712
+}
+
+footer .fa {
+    font-size: 30px;
+    padding-right: 1em;
 }
 
 
@@ -49,7 +55,7 @@ h2 {
 h3 {
     color: black;
     font-family: 'Akronim', sans-serif;
-    padding: .5em 0;
+    padding: 1em 0 .5em 0;
 }
 
 p {
@@ -74,6 +80,10 @@ nav {
 }
 */
 
+i.fa.fa-navicon {
+    padding: 0;
+    color: #a53516;
+}
 
 /* NAV SLUT */
 
@@ -109,6 +119,24 @@ a.nav-link.active {
 }
 
 /* SPLASH SLUT */
+
+
+/* MOTION GRAPHIC */
+
+.video {
+    margin-bottom: 1em;
+}
+
+/* MOTION GRAPHIC SLUT */
+
+
+/* CATERING */
+
+.cat {
+    margin-bottom: 1em;
+}
+
+/* CATERING SLUT */
 
 /* KONTAKT FORM */
 .contact-us {
@@ -248,6 +276,26 @@ a.nav-link.active {
     background-repeat: repeat;
 }
 
+#subject {
+    width: 100%;
+}
+
+#email {
+    margin-bottom: .5em;
+}
+
+input {
+    padding-left: .3em;
+    border: 1px solid #a53516;
+    border-radius: 5px;
+}
+
+textarea {
+    padding-left: .3em;
+    border: 1px solid #a53516;
+    border-radius: 5px;
+}
+
 /* KONTAKT FORM SLUT */
 
 /* KORT */
@@ -270,7 +318,14 @@ a.nav-link.active {
 
 /* ÅBNINGSTIDER */
 
+.aa{
+    margin: 2em 0 0 0;
+}
 
+th {
+    font-weight: 500;
+    padding-right: .5em;
+}
 
 
 /* ÅBNINGSTIDER SLUT */
@@ -280,7 +335,7 @@ footer {
     background-image: url(footer.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 6em 0;
+    padding: 10em 0 3em 0;
     color: white;
     font-family: 'Signika negative', sans-serif;
 }
@@ -291,6 +346,18 @@ footer h3 {
 
 .some {
     text-align: center;
+}
+
+a {
+    color: white !important;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+footer .knap {
+    margin-top: .5em;
 }
 
 /* FOOTER SLUT */
