@@ -89,6 +89,11 @@ i.fa.fa-navicon {
     color: #a53516;
 }
 
+
+.logo {
+    width: 20%;
+}
+
 /* NAV SLUT */
 
 
@@ -102,11 +107,11 @@ a.nav-link {
 
 a.nav-link:hover {
 
-    color: orangered;
+    color: orangered !important;
 }
 
 a.nav-link.active {
-    color: orange;
+    color: orange !important;
 }
 
 
@@ -501,6 +506,23 @@ footer .knap {
 
     .some {
         padding-top: 50px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    .aab {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 3%;
     }
 }
 
