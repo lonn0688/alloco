@@ -145,6 +145,11 @@ a.nav-link.active {
     margin-bottom: 1em;
 }
 
+.cater {
+    text-align: center;
+    margin-top: 2em;
+}
+
 /* CATERING SLUT */
 
 /* KONTAKT FORM */
@@ -341,7 +346,7 @@ th {
 
 /* FOOTER */
 footer {
-    background-image: url(footer.png);
+    background-image: url(footer-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10em 0 3em 0;
@@ -372,6 +377,8 @@ footer .knap {
 .nyhedsbrev {
     margin-bottom: 0;
 }
+
+
 
 /* FOOTER SLUT */
 
