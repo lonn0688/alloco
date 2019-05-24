@@ -129,7 +129,10 @@ a.nav-link.active {
     top: 72%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 
+.splash {
+    margin-top: 2em;
 }
 
 /* SPLASH SLUT */
@@ -148,10 +151,6 @@ a.nav-link.active {
 
 .cat {
     margin-bottom: 1em;
-}
-
-.cat img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cater {
@@ -465,6 +464,8 @@ footer .knap {
 @media(min-width:425px) {
     .cat {
         margin-top: 1em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0 !important;
     }
 
     h2 {
@@ -490,6 +491,10 @@ footer .knap {
 
     .navbar {
         padding: .5rem 1rem !important;
+    }
+
+    .splash {
+        margin-top: 0;
     }
 }
 
