@@ -31,7 +31,8 @@
 
 <body body data-spy="scroll" data-target="scrollspyid" data-offset="0">
 
-
+<audio src="Untitled%20Rhythm.mp3" autoplay  loop=infinite>
+</audio>
 
     <nav id="scrollspyid" class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
         <div class="progress-container">
@@ -82,14 +83,14 @@
     <div class="container" id="om">
         <div class="row">
             <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
-                <h2>OM</h2>
+                <h2>OM OS</h2>
 
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1500">
                 <p>Vi er en lille, hyggelig restaurant beliggende centralt i Brønshøj. Vi tilbyder lækker, afrikansk mad med originale opskrifter omringet af rig afrikansk stemning, mønstrede duge og bongotrommer. <br>
-                    Vi har eksisteret siden 2011, og vi har siden da leveret mad til mange tilfredse og tilbagevendende kunder. Vores personale består af de dygtigste og mest smilende tjenere og kokke.<br>
+                    Vi har eksisteret siden 2018, og vi har siden da leveret mad til mange tilfredse og tilbagevendende kunder. Vores personale består af de dygtigste og mest smilende tjenere og kokke.<br>
                     Hos Alloco går vi meget op i bæredygtighed, og derfor tilbyder v,i som en af de eneste restauranter i Danmark, blandt andet at du kan donere 10% af dit beløb direkte fra restauranten til de sultne i Afrika, så også de kan nyde et afrikansk måltid eller to. <br>
                     Så hvis du er i humør til noget afrikansk stemning og lækker mad med god samvittighed, så kom forbi! Alloco - a taste of Africa.
 
@@ -121,7 +122,7 @@
 
 
     <div class="container" id="menu">
-        <h2 data-aos="fade-up" data-aos-duration="1500">MENU</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1500">VORES MENU</h2>
         <!--3 top billeder-->
         <div class="row" data-aos="fade-up" data-aos-duration="1500">
             <div class="col-md-4 flip-card">
@@ -263,6 +264,8 @@
                 <p>Skal du holde konfirmation, bryllup eller bare en fest, der ikke skal glemmes i den nærmeste fremtid? Så lad os stå for det. Udover mad og stemning tilbyder vi nemlig catering. Vi kan lave en lækker tre retters menu, buffet eller hvad du ønsker til dig og dine gæster. Hertil sørger vi også gerne for oppyntning, borddækning samt underholdning. Det hele i afrikansk stil naturligvis. Underholdningen kan blandt andet være levende afrikansk musik, lære at danse på afrikansk manér eller afrikanske lege for børnene, det er helt op til dig. Vi sørger selvfølgelig også for musik. Hør en forsmag på vores spotify <a href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX5pdHFmCpAKF?si=z6idXOM3Tge6VebTeyKXqA">her</a>.<br>
                     Lyder det som noget for dig, så ring til os på <a href="tel:+4541245247">+45 41 24 52 47</a> eller skriv en mail på <a href="mailto:">alloco@alloco.dk</a>, og hør nærmere.
                 </p>
+                <h3>Take away</h3>
+                <p>Vi tilbyder også take away. Hvis du har brug for en dag under dynen, og ikke gider at lave mad, eller hvis du bare gerne vil tage maden ud af huset, så kan du gøre det her. Du kan bestille maden i restauranten eller ringe til os på <a href="tel:+4541245247">+45 41 24 52 47</a>.  Så sørger vi for at lave maden til dig. Ring og hør mere hvis du ønsker udbringning. </p>
             </div>
 
             <div class="cater" data-aos="fade-up" data-aos-duration="1500">
@@ -276,7 +279,7 @@
     <div class="container" id="kontakt">
         <div class="row">
             <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
-                <h2>KONTAKT</h2>
+                <h2>KONTAKT OS</h2>
             </div>
         </div>
         <div class="row">
@@ -286,9 +289,11 @@
 
                     <i class="fa fa-envelope"></i><a href="mailto:">alloco@alloco.dk</a></p>
                     <div class="kontaktform">
-                <p>Hej, jeg hedder <input type="text" name="fullName" id="fullName" placeholder="dit navn" value=""> og jeg har dette spørgsmål: <textarea id="subject" name="subject" placeholder="din besked" style="height:200px"></textarea> <br> Kontakt mig på mail <input type="text" name="email" id="email" placeholder="din e-mail" value=""> eller ring til mig på <input type="text" name="nummer" id="nummer" placeholder="dit telefonnummer" value="">.</p>
-                <input type="submit" value="Send besked" class="knap">
+                <p>Hej, jeg hedder <input type="text" name="fullName" id="fullName" placeholder="dit navn" value=""> og jeg har dette spørgsmål: <textarea id="subject" name="subject" placeholder="din besked" style="height:200px"></textarea> <br> Kontakt mig på mail <input type="text" name="email" id="email" placeholder="din e-mail" value=""> eller ring til mig på <input type="text" name="nummer" id="nummer" placeholder="dit telefonnummer" value="">.
+                <div class="knap-con"></p>
+                <img class="knap" src="footer-img.png"><p class="knap-txt">Send besked</p>
                 </div>
+            </div>
             </div>
 
 
@@ -354,7 +359,6 @@
                         </tr>
                     </table>
                 </div>
-
             </div>
         </div>
     </footer>
@@ -377,6 +381,7 @@
     </script>
 
     <script>
+
         $('body').scrollspy({
             target: '#scrollspyid'
         })
