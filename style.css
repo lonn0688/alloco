@@ -18,30 +18,22 @@ iframe {
     transition: .3s;
 }
 
+/* KNAPPER */
+
 .knap {
-    border: none;
     color: white;
-}
-
-.knap-con {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-
-.knap-txt {
- position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    border-color: none;
+    background-color: #a53516;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .knap:hover{
-    transition: .8s;
-    color: white;
     cursor: pointer;
+    background-color: #fab712;
+    transition: .5s;
 }
+
+/* KNAPPER SLUT */
 
 #kontakt .fa {
     font-size: 20px !important;
@@ -352,6 +344,7 @@ textarea {
     border: 1px solid #a53516;
     border-radius: 5px;
 }
+
 
 /* KONTAKT FORM SLUT */
 
