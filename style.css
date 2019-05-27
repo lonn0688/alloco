@@ -115,9 +115,18 @@ i.fa.fa-navicon {
 
 
 .logo {
-    width: 20%;
-    border: 2ox solid red;
+    width: 10%;
 }
+
+.navbar-brand {
+        display: block !important;
+        margin-left: .5em;
+        margin-right: auto !important;
+    }
+
+    .navbar {
+        justify-content: flex-end!important;
+    }
 
 /* NAV SLUT */
 
@@ -522,6 +531,25 @@ footer .knap {
     .splash {
         margin-top: 0;
     }
+
+    .logo {
+        width: 7%;
+    }
+
+    .navbar-brand {
+        padding: 0 !important;
+        display: block !important;
+        margin-left: 0;
+        margin-right: auto !important;
+    }
+
+    .navbar {
+        justify-content: flex-end!important;
+    }
+
+    .navbar-toggler {
+
+    }
 }
 
 /* tablet slut */
@@ -587,6 +615,7 @@ footer .knap {
 
     .logo {
         width: 3%;
+        margin: .5em 1em;
     }
 
     .flip-card {
