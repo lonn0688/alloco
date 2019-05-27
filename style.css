@@ -1,6 +1,6 @@
 /* MAIN */
 html, body {
-    cursor: url(favicon-16x16.png), default;
+    cursor: default;
 }
 
 
@@ -380,7 +380,7 @@ th {
 
 /* FOOTER */
 footer {
-    background-image: url(footer_24.png);
+    background-image: url(footer_man.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10em 0 3em 0;
