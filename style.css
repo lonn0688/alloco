@@ -17,10 +17,6 @@ iframe {
     transition: .3s;
 }
 
-.row {
-    margin: 0 3em !important;
-}
-
 /* KNAPPER */
 
 .knap {
@@ -181,7 +177,7 @@ p {
 }
 
 #catering {
-    background-image: url(_xxx.jpg);
+    background-image: url(sektion_n%C3%A6se1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
