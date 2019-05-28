@@ -161,7 +161,7 @@ a.nav-link.active {
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: beige;
+    background-color: #edcc9f;
     background-attachment: fixed;
 }
 
@@ -173,7 +173,7 @@ p {
    /* background-image: url(sektion2.jpg);
      background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: beige;
+    background-color: #edcc9f;
 }
 
 #catering {
@@ -191,7 +191,7 @@ p {
 }
 
 #ekstra {
-    background-color: beige;
+    background-color: #edcc9f;
 }
 
 /* BAGGRUNDE SLUT */
