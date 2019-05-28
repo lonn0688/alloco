@@ -165,10 +165,10 @@ a.nav-link.active {
 
 /* OM */
 #om {
-    background-image: url(sektion_xxx.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: sandybrown;
+    background-color: beige;
     background-attachment: fixed;
 }
 /* BAGGRUNDE SLUT */
@@ -188,7 +188,11 @@ a.nav-link.active {
 }
 
 #kontakt {
-    background-color: bisque;
+    background-image: url(sektion2.jpg)
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* MOTION GRAPHIC */
