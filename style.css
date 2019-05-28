@@ -3,11 +3,6 @@ html, body {
     cursor: default;
 }
 
-p {
-    padding: 2em;
-    color: white;
-}
-
 img {
     width: 100%;
 }
@@ -20,6 +15,10 @@ iframe {
     color: #ef7b1b!important;
     text-decoration: none;
     transition: .3s;
+}
+
+.row {
+    margin: 0 3em !important;
 }
 
 /* KNAPPER */
@@ -161,9 +160,7 @@ a.nav-link.active {
     margin-top: 2em;
 }
 
-/* BAGGRUNDE SLUT */
-
-/* OM */
+/* BAGGRUNDE */
 #om {
 
     background-repeat: no-repeat;
@@ -171,7 +168,10 @@ a.nav-link.active {
     background-color: beige;
     background-attachment: fixed;
 }
-/* BAGGRUNDE SLUT */
+
+p {
+    color: white;
+}
 
 #menu {
    /* background-image: url(sektion2.jpg);
@@ -181,19 +181,31 @@ a.nav-link.active {
 }
 
 #catering {
-    background-image: url(sektion_n%C3%A6se.jpg);
+    background-image: url(_xxx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #kontakt {
-    background-image: url(sektion2.jpg)
-
+    background-image: url(sektion_trae.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
+#ekstra {
+    background-color: beige;
+}
+
+/* BAGGRUNDE SLUT */
+
+
+/* OM */
+.afsnit {
+    margin-right: 1em;
+}
+/* OM SLUT */
 
 /* MOTION GRAPHIC */
 
@@ -421,7 +433,9 @@ footer {
     background-size: cover;
     color: white;
     font-family: 'Signika negative', sans-serif;
-   background-color: burlywood;
+   background-color: #595958;
+    padding: 1em;
+    background-image: url(footer_xxx.png);
 }
 
 footer h3 {
