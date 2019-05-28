@@ -1,6 +1,7 @@
 /* MAIN */
 html, body {
     cursor: default;
+    background-color: #faf1aa!important;
 }
 
 img {
@@ -21,6 +22,7 @@ iframe {
 
 .knap {
     color: white;
+    padding: .5em;
     border-color: none;
     background-color: #a53516;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -37,12 +39,13 @@ iframe {
 #kontakt .fa {
     font-size: 20px !important;
     padding: 0 10px 10px 0;
-    color: #fab712
+    color: black;
 }
 
 footer .fa {
     font-size: 30px;
     padding-right: 1em;
+    color: orange;
 }
 
 
@@ -145,11 +148,18 @@ a.nav-link.active {
 
 
 /* SPLASH */
+.splash-con {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
 .titel {
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   font-size: .4em;
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .splash {
@@ -161,19 +171,17 @@ a.nav-link.active {
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #edcc9f;
     background-attachment: fixed;
-}
-
-p {
-    color: white;
 }
 
 #menu {
    /* background-image: url(sektion2.jpg);
      background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: #edcc9f;
+}
+
+#menu h2 {
+    padding-top: .5em;
 }
 
 #catering {
@@ -183,6 +191,10 @@ p {
     background-attachment: fixed;
 }
 
+#catering p, #catering h3 {
+    color: white;
+}
+
 #kontakt {
     background-image: url(sektion_trae.jpg);
     background-repeat: no-repeat;
@@ -190,17 +202,24 @@ p {
     background-attachment: fixed;
 }
 
-#ekstra {
-    background-color: #edcc9f;
+#kontakt p {
+    color: white;
 }
 
+.kontop {
+    padding-bottom: 2em;
+}
+
+
+
+.container-fluid {
+        padding-bottom: 2em;
+    }
 /* BAGGRUNDE SLUT */
 
 
 /* OM */
-.afsnit {
-    margin-right: 1em;
-}
+
 /* OM SLUT */
 
 /* MOTION GRAPHIC */
@@ -219,12 +238,15 @@ p {
 }
 
 .cater {
-    text-align: center;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2em;
+    text-align: center
 }
 
 .cat {
-  padding: 50px;
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -429,7 +451,7 @@ footer {
     background-size: cover;
     color: white;
     font-family: 'Signika negative', sans-serif;
-   background-color: #595958;
+
     padding: 1em;
     background-image: url(footer_xxx.png);
 }
@@ -440,6 +462,7 @@ footer h3 {
 
 .some {
     text-align: center;
+
 }
 
 footer a {
@@ -534,7 +557,7 @@ footer .knap {
 
 @media(min-width:425px) {
     .cat {
-        margin-top: 1em;
+        margin-right: 1em;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 0 !important;
     }
@@ -583,9 +606,35 @@ footer .knap {
         justify-content: flex-end!important;
     }
 
-    .navbar-toggler {
-
+    .retter {
+        padding: 0 1em;
     }
+
+    .container-fluid, .container {
+        padding-bottom: 4em;
+    }
+
+    #menu h2 {
+        padding-top: 1.5em;
+    }
+
+    #om .row {
+        padding: 0 2em;
+    }
+
+    #kontakt .row {
+        padding: 0 2em;
+    }
+
+    .kontop {
+    padding-bottom: 0;
+}
+
+    .titel {
+   font-size: .8em;
+  top: 77%;
+}
+
 }
 
 /* tablet slut */
@@ -655,7 +704,7 @@ footer .knap {
     }
 
     .flip-card {
-        height: 350px;
+        height: 300px;
     }
 
     .flip-card-back p {
@@ -664,22 +713,28 @@ footer .knap {
     }
 
     .flip-card-back h3 {
-        margin: 1em .8em .5em .8em;
+        margin: .4em .8em .5em .8em;
     }
 
     .flip-card:hover .flip-card-inner {
         cursor: context-menu;
     }
 
-    .cat {
-  transition: transform .2s; /* Animation */
 
+    img.cat{
+  width: 50%;
 }
 
-.cat:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    z-index: 1;
-}
+    .retter {
+        padding: 0 4em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titel {
+         font-size: 1.5em;
+    }
 
 }
 
