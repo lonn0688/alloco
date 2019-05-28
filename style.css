@@ -1,8 +1,12 @@
 /* MAIN */
 html, body {
-    cursor: url('mus.png'), default;
+    cursor: default;
 }
 
+p {
+    padding: 2em;
+    color: white;
+}
 
 img {
     width: 100%;
@@ -157,8 +161,35 @@ a.nav-link.active {
     margin-top: 2em;
 }
 
-/* SPLASH SLUT */
+/* BAGGRUNDE SLUT */
 
+/* OM */
+#om {
+    background-image: url(sektion_xxx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: sandybrown;
+    background-attachment: fixed;
+}
+/* BAGGRUNDE SLUT */
+
+#menu {
+   /* background-image: url(sektion2.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: beige;
+}
+
+#catering {
+    background-image: url(sektion_n%C3%A6se.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#kontakt {
+    background-color: bisque;
+}
 
 /* MOTION GRAPHIC */
 
@@ -382,13 +413,11 @@ th {
 
 /* FOOTER */
 footer {
-    background-image: url(footer_man.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10em 0 3em 0;
     color: white;
     font-family: 'Signika negative', sans-serif;
-    margin-top: 3em;
+   background-color: burlywood;
 }
 
 footer h3 {
