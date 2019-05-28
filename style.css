@@ -174,16 +174,6 @@ a.nav-link.active {
     background-attachment: fixed;
 }
 
-#menu {
-   /* background-image: url(sektion2.jpg);
-     background-repeat: no-repeat;
-    background-size: cover;*/
-}
-
-#menu h2 {
-    padding-top: .5em;
-}
-
 #catering {
     background-image: url(sektion_n%C3%A6se1.jpg);
     background-repeat: no-repeat;
@@ -230,6 +220,30 @@ a.nav-link.active {
 
 /* MOTION GRAPHIC SLUT */
 
+
+/* MENU */
+
+#menu h2 {
+    padding-top: .5em;
+}
+
+.retter img {
+    margin-bottom: 1em;
+}
+
+#menu {
+    padding-bottom: 2em;
+}
+
+.menuoverskrift-t {
+    display: none;
+}
+
+.menuoverskrift-m {
+    display: block;
+}
+
+/* MENU SLUT */
 
 /* CATERING */
 
@@ -551,6 +565,14 @@ footer .knap {
     font-size: 17px;
 }
 
+
+.menuen-desktop {
+    display: none;
+}
+
+.menuen-mobil {
+    display: block;
+}
 /* MEDIA QUERIES */
 
 /* tablet */
@@ -607,7 +629,7 @@ footer .knap {
     }
 
     .retter {
-        padding: 0 1em;
+        padding: 2em 1em;
     }
 
     .container-fluid, .container {
@@ -633,6 +655,14 @@ footer .knap {
     .titel {
    font-size: .8em;
   top: 77%;
+}
+
+    .menuoverskrift-t {
+    display: block;
+}
+
+.menuoverskrift-m {
+    display: none;
 }
 
 }
@@ -735,6 +765,15 @@ footer .knap {
     .titel {
          font-size: 1.5em;
     }
+
+    .menuen-desktop {
+    display: block;
+    margin-bottom: 2em;
+}
+
+.menuen-mobil {
+    display: none;
+}
 
 }
 
