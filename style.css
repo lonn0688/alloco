@@ -200,7 +200,7 @@ a.nav-link.active {
 }
 
 #kontakt {
-    background-image: url(sektion_trae.jpg);
+    background-image: url(sektion_trae.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -495,7 +495,7 @@ footer {
     color: white;
     font-family: 'Signika negative', sans-serif;
     padding: 1em;
-    background-image: url(footer_xxx.png);
+    background-image: url(footer_123.png);
 }
 
 footer h3 {
@@ -819,6 +819,11 @@ footer .knap {
 
     body {
         background-size: cover;
+    }
+
+    #catering h3 {
+        padding-top: 0;
+        text-align: center;
     }
 }
 
