@@ -1,7 +1,8 @@
 /* MAIN */
-html, body {
+html,
+body {
     cursor: default;
-    background-color: #faf1aa!important;
+    background-color: #faf1aa !important;
 }
 
 img {
@@ -13,7 +14,7 @@ iframe {
 }
 
 .fa:hover {
-    color: #ef7b1b!important;
+    color: #ef7b1b !important;
     text-decoration: none;
     transition: .3s;
 }
@@ -28,7 +29,7 @@ iframe {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.knap:hover{
+.knap:hover {
     cursor: pointer;
     background-color: #fab712;
     transition: .5s;
@@ -113,14 +114,14 @@ i.fa.fa-navicon {
 }
 
 .navbar-brand {
-        display: block !important;
-        margin-left: .5em;
-        margin-right: auto !important;
-    }
+    display: block !important;
+    margin-left: .5em;
+    margin-right: auto !important;
+}
 
-    .navbar {
-        justify-content: flex-end!important;
-    }
+.navbar {
+    justify-content: flex-end !important;
+}
 
 /* NAV SLUT */
 
@@ -132,6 +133,7 @@ a.nav-link {
     color: #a53516;
     text-decoration: none;
     background-color: transparent;
+    margin-left: 1em;
 }
 
 a.nav-link:hover {
@@ -150,16 +152,16 @@ a.nav-link.active {
 /* SPLASH */
 .splash-con {
     position: relative;
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 .titel {
-   font-size: .4em;
-  position: absolute;
-  top: 77%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-size: .4em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .splash {
@@ -181,7 +183,8 @@ a.nav-link.active {
     background-attachment: fixed;
 }
 
-#catering p, #catering h3 {
+#catering p,
+#catering h3 {
     color: white;
 }
 
@@ -203,8 +206,9 @@ a.nav-link.active {
 
 
 .container-fluid {
-        padding-bottom: 2em;
-    }
+    padding-bottom: 2em;
+}
+
 /* BAGGRUNDE SLUT */
 
 
@@ -223,7 +227,7 @@ a.nav-link.active {
 
 /* MENU */
 
-#menu h2 {
+#menu2 {
     padding-top: .5em;
 }
 
@@ -252,7 +256,7 @@ a.nav-link.active {
 }
 
 .cater {
-   display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
@@ -260,8 +264,8 @@ a.nav-link.active {
 }
 
 .cat {
-  padding: 10px;
-  margin: 0 auto;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 /* CATERING SLUT */
@@ -446,10 +450,11 @@ textarea {
 /* KORT SLUT */
 
 /* FRIVILLIG */
-.frivillig img{
+.frivillig img {
     margin: 1em 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 /* FRIVILLIG SLUT */
 
 /* ÅBNINGSTIDER */
@@ -580,6 +585,7 @@ footer .knap {
 .menuen-mobil {
     display: block;
 }
+
 /* MEDIA QUERIES */
 
 /* tablet */
@@ -627,19 +633,20 @@ footer .knap {
     .navbar-brand {
         padding: 0 !important;
         display: block !important;
-        margin-left: 0;
+        margin-left: 1em;
         margin-right: auto !important;
     }
 
     .navbar {
-        justify-content: flex-end!important;
+        justify-content: flex-end !important;
     }
 
     .retter {
         padding: 2em 1em;
     }
 
-    .container-fluid, .container {
+    .container-fluid,
+    .container {
         padding-bottom: 4em;
     }
 
@@ -656,21 +663,29 @@ footer .knap {
     }
 
     .kontop {
-    padding-bottom: 0;
-}
+        padding-bottom: 0;
+    }
 
     .titel {
-   font-size: .8em;
-  top: 77%;
-}
+        font-size: .8em;
+        top: 60%;
+    }
 
     .menuoverskrift-t {
-    display: block;
-}
+        display: block;
+    }
 
-.menuoverskrift-m {
-    display: none;
-}
+    .menuoverskrift-m {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin-right: 1em;
+    }
+
+    a.nav-link {
+        margin-left: 0;
+    }
 
 }
 
@@ -758,9 +773,9 @@ footer .knap {
     }
 
 
-    img.cat{
-  width: 50%;
-}
+    img.cat {
+        width: 50%;
+    }
 
     .retter {
         padding: 0 4em;
@@ -770,17 +785,17 @@ footer .knap {
     }
 
     .titel {
-         font-size: 1.5em;
+        font-size: 1.5em;
     }
 
     .menuen-desktop {
-    display: block;
-    margin-bottom: 2em;
-}
+        display: block;
+        margin-bottom: 2em;
+    }
 
-.menuen-mobil {
-    display: none;
-}
+    .menuen-mobil {
+        display: none;
+    }
 
 }
 
