@@ -495,6 +495,7 @@ footer {
     color: white;
     font-family: 'Signika negative', sans-serif;
     padding: 1em;
+   padding-top: 3em;
     background-image: url(footer_123.png);
 }
 
@@ -707,6 +708,10 @@ footer .knap {
         margin-left: 0;
     }
 
+    .frivillig {
+        padding: .5em 2em;
+    }
+
 }
 
 /* tablet slut */
@@ -825,6 +830,10 @@ footer .knap {
         padding-top: 0;
         text-align: center;
     }
+
+    .frivillig {
+    padding: 1em 6em;
+}
 }
 
 /* desktop slut */
