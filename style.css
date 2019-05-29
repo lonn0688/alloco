@@ -3,6 +3,9 @@ html,
 body {
     cursor: default;
     background-color: #faf1aa !important;
+    background-image: url(bagggrund_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
@@ -76,6 +79,14 @@ h3 {
     color: black;
     font-family: 'Akronim', sans-serif;
     padding: 1em 0 .5em 0;
+}
+
+#kontakt h2, #catering h2 {
+    color: white;
+}
+
+#catering a {
+    color: #ff6200  !important;
 }
 
 p {
@@ -177,7 +188,7 @@ a.nav-link.active {
 }
 
 #catering {
-    background-image: url(sektion_n%C3%A6se1.jpg);
+    background-image: url(sektion_n%C3%A6se.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -197,6 +208,12 @@ a.nav-link.active {
 
 #kontakt p {
     color: white;
+}
+
+#menu, #om, #frivillig {
+    background-image: url(bagggrund_1.png);
+        background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .kontop {
@@ -477,13 +494,16 @@ footer {
     background-size: cover;
     color: white;
     font-family: 'Signika negative', sans-serif;
-
     padding: 1em;
     background-image: url(footer_xxx.png);
 }
 
 footer h3 {
     color: white;
+}
+
+footer p, footer tr {
+    font-size: 1.2em;
 }
 
 .some {
@@ -797,6 +817,9 @@ footer .knap {
         display: none;
     }
 
+    body {
+        background-size: cover;
+    }
 }
 
 /* desktop slut */
